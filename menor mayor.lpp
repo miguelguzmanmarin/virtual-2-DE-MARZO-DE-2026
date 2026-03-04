@@ -1,0 +1,17 @@
+real numero1, numero2
+inicio 
+    escriba "numeri 1: "
+    lea numero1
+    escriba "numero 2: "
+    lea numero2
+    si (numero1 > numero2) entonces 
+    escriba "el numero mayor es: ", numero1
+    sino 
+    si (numero2 > numero1) entonces 
+    escriba "el numero mayor es: ", numero2
+    sino
+    escriba "los numeros son iguales"
+    fin si
+    fin si
+   
+fin

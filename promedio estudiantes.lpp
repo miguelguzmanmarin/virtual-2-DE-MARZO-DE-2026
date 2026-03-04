@@ -1,0 +1,14 @@
+cadena [30] nombre 
+real nota1, nota2, nota3, promedio
+inicio
+    escriba "nombre: "
+    lea nombre 
+    escriba " nota 1: "
+    lea nota1
+    escriba "nota 2: "
+    lea nota2
+    escriba "nota 3: "
+    lea nota3
+    promedio <- (nota1 + nota2 + nota3) / 3
+    escriba nombre, " su nota definitiva es: ", promedio
+Fin

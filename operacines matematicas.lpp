@@ -1,0 +1,41 @@
+real num1,num2,resultado
+entero opcion
+
+inicio
+     escriba " 1. Suma "
+     llamar nueva_linea
+     escriba " 2. Resta"
+     llamar nueva_linea
+     escriba " 3. Multiplicación "
+     llamar nueva_linea
+     escriba " 4. División "
+     llamar nueva_linea
+     escriba " Seleccione una opción: "
+     lea opcion
+
+     escriba "Ingrese el primer número: "
+     lea num1
+     escriba "Ingrese el segundo número: "
+     lea num2
+
+     si opcion = 1 entonces
+        resultado <- num1 + num2
+     sino
+     si opcion = 2 entonces
+        resultado <- num1 - num2
+     sino
+     si opcion = 3 entonces
+        resultado <- num1 * num2
+     sino
+     si opcion = 4 entonces
+        resultado <- num1 / num2
+     sino
+     escriba "Opción inválida"
+     fin si
+     fin si
+     fin si
+     fin si
+
+     escriba "Resultado: ", resultado
+
+Fin

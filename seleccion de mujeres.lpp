@@ -1,0 +1,18 @@
+cadena [20] nombre
+cadena [25 ] sexo
+
+Inicio
+
+     escriba "Ingrese su nombre: "
+     lea nombre
+
+     escriba "Ingrese su sexo (M/F): "
+     lea sexo
+
+     si sexo = "F" entonces
+     escriba " Bienvenida al programa, ", nombre
+     sino
+     escriba "Este programa es solo para mujeres"
+     fin si
+
+Fin

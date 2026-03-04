@@ -1,0 +1,10 @@
+entero numero
+inicio
+    escriba "numero 1: "
+    lea numero
+    si numero > 0 entonces 
+    escriba "numero es positivo "
+    sino 
+    escriba "numero es negativo "
+    fin si
+fin

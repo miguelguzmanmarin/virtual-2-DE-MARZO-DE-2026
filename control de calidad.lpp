@@ -1,0 +1,18 @@
+cadena[20 ] producto
+cadena [25 ] estado
+
+Inicio
+
+     escriba "Ingrese nombre del producto: "
+     lea producto
+
+     escriba "Ingrese estado (Bueno/Defectuoso): "
+     lea estado
+
+     si estado = "Defectuoso" entonces
+     escriba "Producto rechazado"
+     sino
+     escriba "Producto aprobado"
+     fin si
+
+Fin

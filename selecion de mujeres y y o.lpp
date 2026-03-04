@@ -1,0 +1,22 @@
+cadena[ 25] sexo
+entero edad
+entero estrato
+
+Inicio
+
+     Escriba "Ingrese su sexo (M/F): "
+     Lea sexo
+
+     Escriba "Ingrese su edad: "
+     Lea edad
+
+     Escriba "Ingrese su estrato (1-2): "
+     Lea estrato
+
+     Si ((sexo = "F") Y (edad >= 18) Y (edad <= 25) Y ((estrato = 1) O (estrato = 2))) Entonces
+     Escriba "Es apta para recibir el apoyo económico"
+     Sino
+     Escriba "No es apta para recibir el apoyo económico"
+     Fin Si
+
+Fin

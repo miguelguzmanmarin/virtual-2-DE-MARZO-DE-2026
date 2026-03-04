@@ -1,0 +1,14 @@
+entero serie
+
+Inicio
+
+     Escriba "Ingrese el número de serie: "
+     Lea serie
+
+     Si ( ((serie >= 1468) Y (serie <= 1568)) O ((serie >= 7000) Y (serie <= 7999)) O ((serie >= 8883) Y (serie <= 9001)) ) Entonces
+     Escriba "El producto es DEFECTUOSO"
+     Sino
+     Escriba "El producto NO es defectuoso"
+     Fin Si
+
+Fin

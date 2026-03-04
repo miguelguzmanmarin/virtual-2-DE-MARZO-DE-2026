@@ -1,0 +1,38 @@
+real horas, tarifa, salario, horasextras, valorhoraextra, totalextras
+
+inicio
+
+    escriba "Ingrese las horas trabajadas: "
+    lea horas
+    escriba "Ingrese la tarifa por hora: "
+    lea tarifa
+    
+    si horas > 40 entonces 
+        horasExtras  <- horas - 40     
+        
+        valorHoraExtra <- tarifa * 1.5     
+        
+        totalExtras <- horasExtras * valorHoraExtra    
+        
+        salario <- (40 * tarifa) + totalExtras    
+        
+    sino
+        horasExtras <- 0
+        
+        valorHoraExtra <- 0
+        
+        totalExtras <- 0
+       
+        salario <- horas * tarifa
+        
+    fin si
+    
+    escriba "Salario total: ", salario     
+    
+    escriba "Horas extras: ", horasExtras    
+    
+    escriba "Valor de la hora extra: ", valorHoraExtra    
+    
+    escriba "Total pago horas extras: ", totalExtras    
+
+fin

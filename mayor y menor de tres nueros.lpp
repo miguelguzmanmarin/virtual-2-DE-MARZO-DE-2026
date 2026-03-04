@@ -1,0 +1,38 @@
+entero num1,num2,num3
+entero mayor,menor
+
+Inicio
+
+     escriba "Ingrese el primer número"
+     lea num1
+
+     escriba "Ingrese el segundo número"
+     lea num2
+
+     escriba "Ingrese el tercer número"
+     lea num3
+
+         mayor <- num1
+         menor <- num1
+
+     si num2 > mayor entonces
+         mayor <- num2
+   
+     si num3 > mayor entonces
+         mayor <- num3
+
+     si num2 < menor entonces
+         menor <- num2
+     si num3 < menor entonces
+         menor <- num3
+     fin si
+     fin si
+     fin si
+     fin si
+
+
+     escriba " El mayor es: ", mayor
+     escriba " El menor es: ", menor
+     
+
+Fin
